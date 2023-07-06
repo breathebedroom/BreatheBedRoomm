@@ -1,0 +1,99 @@
+/*----- Defaults ------*/
+nav, header, footer{
+    display: block;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+/*---- Imagine ------*/
+.imagine{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    padding-bottom: none;
+}
+
+
+
+/*------ Nav bar --------*/
+nav{
+    width: 100%;
+    margin: 0; 
+    padding: none;
+}
+
+nav ul{
+    background-color: #eee;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+ul.topnav li{
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+ul.topnav li a:hover{
+    background-color: #5F4B3E;
+    color: #5DE1E6;
+    
+    
+}
+
+/*------- Menu --------*/
+.select-item-box{
+    font-weight: 400;
+    border: 1px solid #5F4B3E;
+    margin-bottom: 7.5px;
+    cursor: default;
+    padding: 33px;
+    display: flex;
+    
+}
+
+/* ------custome style -------*/
+
+div.leftside-col{
+    margin-left: 10%;
+    overflow: hidden;
+}
+
+.duration-container span{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.select-item-box{
+    background-color: #5F4B3E;
+}
+    
+
+.Appointment a{
+    color: inherit;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
